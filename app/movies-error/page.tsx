@@ -1,9 +1,10 @@
 import getMovies from "@/util/getMovies"
 import MovieList from "../MovieList"
 import { MoviesType } from "@/util/MovieTypes"
+import Trigger from "./trigger"
 
 export default async function MoviesError() {
-  const movies: MoviesType = await getMovies(0, true)
+  const movies: MoviesType = await getMovies(0)
 
   return (
     <main className="my-24 text-center">
@@ -13,6 +14,7 @@ export default async function MoviesError() {
           error.tsx
         </span>
       </h1>
+      <Trigger />
       <div className="my-12">
         <MovieList page={movies.page} results={movies.results} />
       </div>
