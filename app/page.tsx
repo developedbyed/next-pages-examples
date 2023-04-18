@@ -27,7 +27,7 @@ export default async function Home() {
         </Link>
         <Link
           className="text-black my-2 inline-block py-3 px-6 rounded-md font-bold bg-slate-400"
-          href="/movies-random"
+          href="/movie-not-found"
         >
           Fetch with not-found.tsx
         </Link>

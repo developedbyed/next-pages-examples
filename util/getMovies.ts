@@ -13,5 +13,6 @@ export default async function getMovies(
   if (!res.ok || shouldError) {
     throw new Error(`An error has occured: ${res.status}`)
   }
+
   return res.json()
 }
