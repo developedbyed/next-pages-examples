@@ -3,7 +3,7 @@
 This project shows off an example of [Next.js 13](https://nextjs.org/) with it's fancy `loading.tsx` `error.tsx` `layout.tsx` and `not-found.tsx` pages.
 
 ### how to run locally
-- create your .env.local and insert your API key(s) by refererring to .env.example (you may need to sign up here [https://www.themoviedb.org/settings/api](link))
+- create your .env.local and insert your API key(s) by referring to .env.example (you may need to sign up [here](https://www.themoviedb.org/settings/api) )
 - run `npm install` to install npm dependencies
 - start server `npm run dev`
 
